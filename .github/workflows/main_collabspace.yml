@@ -63,4 +63,4 @@ jobs:
         with:
           app-name: 'CollabSpace'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3B63838938FD4989815C22EE08EFF57B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3ABC41A39B474D90B6B3F7B65145A923 }}
