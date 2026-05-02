@@ -8,6 +8,8 @@ SECRET_KEY = 'django-insecure-r-9r#jwz+tn=&g_1b$q9s5jlr_f3gj6q4)u!l#1k1m8-t#1=$$
 DEBUG = True
 
 ALLOWED_HOSTS = ['collab-space.azurewebsites.net', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['collab-space.azurewebsites.net', 'localhost', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://collab-space.azurewebsites.net']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -94,3 +96,4 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'tejushreebv@gmail.com'
 EMAIL_HOST_PASSWORD = 'lwsnsdrwrxzyalww'
 DEFAULT_FROM_EMAIL = 'tejushreebv@gmail.com'
+CSRF_TRUSTED_ORIGINS = ['https://collab-space.azurewebsites.net']

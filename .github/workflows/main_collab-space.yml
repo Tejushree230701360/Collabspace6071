@@ -29,4 +29,4 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: collab-space
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }} 
